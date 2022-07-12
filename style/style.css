@@ -1,0 +1,50 @@
+body {
+    background-image: linear-gradient(to top, rgb(244, 211, 173), rgb(215, 174, 99));
+    background-repeat: no-repeat;
+}
+
+.first {
+    display: flex;
+}
+
+.first p {
+    color: rgb(84, 50, 6);
+    font-size: 25px;
+    margin-top: 130px;
+    margin-left: 15px;
+}
+
+.search-bar {
+    background-color: rgba(245, 226, 200, 0.8);
+    width: 30%;
+    height: 35px;
+    border-radius: 20px;
+    border: .015px solid gray;
+}
+
+.search-button {
+    color: rgb(62, 40, 3);
+    background-image: linear-gradient(to top, rgb(230, 180, 173), rgb(246, 180, 99));
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    width: 70px;
+    height: 30px;
+    border-radius: 20px;
+    border: .015px solid gray;
+}
+
+.nav-bar {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px 20px 0px;
+    background-color: rgba(226, 131, 43, 0.291);
+    padding: 12px 25px;
+}
+
+.nav-bar a {
+    color: rgb(82, 70, 54);
+    font-size: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+}
